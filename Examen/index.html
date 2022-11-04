@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Examen</h1>
+    <hr>
+
+    <fieldset>
+      <label for="">Nombre</label>
+      <input id="txt-name" type="text" name="" class="Name__input" placeholder="Nombre del estudiante">
+    </fieldset>
+
+    <fieldset>
+      <label for="">Enter Note 1</label>
+      <input id="txt-nota1" type="number" name="" class="Nota1__input" placeholder="Ingrese nota">
+    </fieldset>
+
+    <fieldset>
+    <label for="">Enter Note 2</label>
+    <input id="txt-nota2" type="number" name=""max="100" min="15" class="Nota2__input" placeholder="Ingrese nota">
+    </fieldset>
+
+    <fieldset>
+      <label for="">Enter Note 3</label>
+      <input id="txt-nota3" type="number" name=""max="100" min="15" class="Nota3__input" placeholder="Ingrese nota">
+    </fieldset>
+
+    <button id="btn-assign" class="Assign">Calculate </button>
+    <p id="p-result" class="p__result"></p>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
